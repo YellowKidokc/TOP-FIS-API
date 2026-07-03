@@ -84,6 +84,11 @@ def test_app_factory_registers_current_routes():
     assert "/memory/search" in paths
     assert "/operator/commands" in paths
     assert "/operator/file-actions" in paths
+    assert "/predict/observe" in paths
+    assert "/predict/predict" in paths
+    assert "/predict/correct" in paths
+    assert "/predict/make-permanent" in paths
+    assert "/predict/stats" in paths
     assert "/top-of-mind/messages" in paths
     assert "/top-of-mind/controls/end-all" in paths
 

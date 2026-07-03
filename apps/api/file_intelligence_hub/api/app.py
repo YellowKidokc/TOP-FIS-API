@@ -13,6 +13,7 @@ from file_intelligence_hub.api.routes_intelligence import router as intelligence
 from file_intelligence_hub.api.routes_jobs import router as jobs_router
 from file_intelligence_hub.api.routes_memory import router as memory_router
 from file_intelligence_hub.api.routes_nodes import router as nodes_router
+from file_intelligence_hub.api.routes_prediction import router as prediction_router
 from file_intelligence_hub.api.routes_semantic import router as semantic_router
 from file_intelligence_hub.api.routes_top_of_mind import router as top_of_mind_router
 
@@ -27,6 +28,7 @@ def create_app() -> FastAPI:
     app.include_router(intelligence_router)
     app.include_router(memory_router)
     app.include_router(nodes_router)
+    app.include_router(prediction_router)
     app.include_router(semantic_router)
     app.include_router(top_of_mind_router)
     app.add_middleware(ApiTokenMiddleware)

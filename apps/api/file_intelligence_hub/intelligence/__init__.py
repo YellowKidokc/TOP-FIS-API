@@ -1,1 +1,1 @@
-"""Deterministic file and folder intelligence builders."""
+"""Deterministic file, folder, and action-prediction intelligence."""

@@ -13,6 +13,13 @@ Learn from the choice.
 The system earns file-control trust by predicting the operator before it starts
 acting for the operator.
 
+First implementation:
+
+- engine: `apps/api/file_intelligence_hub/intelligence/prediction_engine.py`
+- API: `apps/api/file_intelligence_hub/api/routes_prediction.py`
+- endpoints: `/predict/observe`, `/predict/predict`, `/predict/correct`,
+  `/predict/make-permanent`, `/predict/stats`, `/predict/rules`
+
 ## Statistical Method
 
 Use active learning, not random labeling.

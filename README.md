@@ -52,4 +52,5 @@ For the full install-to-daily-use story, read:
 - `docs/architecture/label-enforcement.md`
 - `docs/architecture/legacy-fis-semantic-addressing.md`
 - `docs/schemas/api-contract-v0.md`
+- `docs/schemas/folder-label-example.md`
 - `docs/handoffs/forgotten-systems-inventory.md`

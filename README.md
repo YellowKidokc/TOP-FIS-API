@@ -51,6 +51,7 @@ For the full install-to-daily-use story, read:
 - `docs/architecture/scanner-pipeline.md`
 - `docs/architecture/label-enforcement.md`
 - `docs/architecture/watcher-vs-dossier-worker.md`
+- `docs/architecture/least-action-prediction-engine.md`
 - `docs/architecture/legacy-fis-semantic-addressing.md`
 - `docs/schemas/api-contract-v0.md`
 - `docs/schemas/folder-label-example.md`

@@ -1,0 +1,27 @@
+{
+  "primary_hub": "synology",
+  "nodes": [
+    {
+      "node_id": "synology",
+      "name": "Synology NAS",
+      "role": "primary-hub",
+      "base_url": "http://synology.local:10000",
+      "enabled": true
+    },
+    {
+      "node_id": "desktop",
+      "name": "Desktop",
+      "role": "backup-hub-and-watcher",
+      "base_url": "http://127.0.0.1:10000",
+      "enabled": true
+    },
+    {
+      "node_id": "laptop",
+      "name": "Laptop",
+      "role": "backup-watcher",
+      "base_url": "http://laptop.local:10000",
+      "enabled": false
+    }
+  ]
+}
+

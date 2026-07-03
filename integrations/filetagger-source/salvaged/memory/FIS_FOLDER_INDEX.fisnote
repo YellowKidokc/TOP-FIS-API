@@ -1,0 +1,25 @@
+---
+fis_schema: tag-ledger.v1
+run_id: 1
+folder: "sentinel-desktop\\core\\memory"
+generated_at: "2026-06-23T17:14:16"
+ledger: "D:\\DONT TOUCH BOOT UP\\FIS\\fis_runtime\\tag_ledger.sqlite"
+tags: ["folder", "memory", "code"]
+file_count: 4
+child_folder_count: 0
+---
+
+# FIS Folder Index: memory
+
+This folder has been seen by the FIS tag ledger. The ledger records names, tags, skipped items, and move status.
+
+Move state: every listed file starts as `not_moved` until a later approved mover records otherwise.
+
+## Direct Files
+
+- `__init__.py` :: #file #code #python #ext-py #init :: move_status=not_moved
+- `episodic.py` :: #file #code #python #ext-py #episodic :: move_status=not_moved
+- `semantic.py` :: #file #code #python #ext-py #semantic :: move_status=not_moved
+- `working.py` :: #file #code #python #ext-py #working :: move_status=not_moved
+
+<!-- FIS tag-ledger.v1: parseable note; safe to regenerate. -->

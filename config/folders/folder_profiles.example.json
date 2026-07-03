@@ -1,0 +1,22 @@
+{
+  "protected_extensions": [".chi", ".fmeta", ".fisnote", ".fistag", ".fisdead"],
+  "profiles": [
+    {
+      "profile_id": "downloads",
+      "path": "H:/Downloads",
+      "watch": true,
+      "auto_actions": false,
+      "allowed_actions": ["scan", "label", "rename_suggest", "classify"],
+      "notes": "High-chaos intake folder. Propose actions before moving."
+    },
+    {
+      "profile_id": "faith_site_data",
+      "path": "D:/GitHub/faiththruphysics-site-data",
+      "watch": true,
+      "auto_actions": false,
+      "allowed_actions": ["scan", "label", "convert_suggest", "r2_suggest"],
+      "notes": "Content source area for web media and documents."
+    }
+  ]
+}
+

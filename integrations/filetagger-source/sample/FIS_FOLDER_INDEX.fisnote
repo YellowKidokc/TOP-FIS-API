@@ -1,0 +1,31 @@
+---
+fis_schema: tag-ledger.v1
+run_id: 1
+folder: "filetagger\\sample"
+generated_at: "2026-06-23T17:14:16"
+ledger: "D:\\DONT TOUCH BOOT UP\\FIS\\fis_runtime\\tag_ledger.sqlite"
+tags: ["folder", "sample", "other", "document"]
+file_count: 10
+child_folder_count: 0
+---
+
+# FIS Folder Index: sample
+
+This folder has been seen by the FIS tag ledger. The ledger records names, tags, skipped items, and move status.
+
+Move state: every listed file starts as `not_moved` until a later approved mover records otherwise.
+
+## Direct Files
+
+- `.folder.fmeta` :: #file #other #ext-fmeta #folder :: move_status=not_moved
+- `.folder.fmeta.chi` :: #file #other #ext-chi #folder #fmeta :: move_status=not_moved
+- `budget_notes.md` :: #file #document #markdown #ext-md #budget #notes :: move_status=not_moved
+- `budget_notes.md.chi` :: #file #other #ext-chi #budget #notes :: move_status=not_moved
+- `budget_notes.md.fmeta` :: #file #other #ext-fmeta #budget #notes :: move_status=not_moved
+- `budget_notes.md.fmeta.chi` :: #file #other #ext-chi #budget #notes #fmeta :: move_status=not_moved
+- `install_readme.txt` :: #file #document #text #ext-txt #install #readme :: move_status=not_moved
+- `install_readme.txt.chi` :: #file #other #ext-chi #install #readme #txt :: move_status=not_moved
+- `install_readme.txt.fmeta` :: #file #other #ext-fmeta #install #readme #txt :: move_status=not_moved
+- `install_readme.txt.fmeta.chi` :: #file #other #ext-chi #install #readme #txt #fmeta :: move_status=not_moved
+
+<!-- FIS tag-ledger.v1: parseable note; safe to regenerate. -->

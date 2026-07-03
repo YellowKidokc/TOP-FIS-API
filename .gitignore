@@ -1,0 +1,47 @@
+# Runtime and local state
+runtime/logs/*
+runtime/queue/*
+runtime/tmp/*
+data/sqlite/*.db
+data/sqlite/*.sqlite
+data/sqlite/*.sqlite3
+data/sqlite/*-wal
+data/sqlite/*-shm
+data/cache/**/*
+data/exports/**/*
+data/imports/**/*
+apps/api/.data/
+apps/api/*.egg-info/
+apps/api/file_intelligence_hub.egg-info/
+integrations/**/.data/
+integrations/**/.package-stage/
+integrations/**/.spk-stage/
+integrations/**/dist/
+
+# Keep folder structure
+!runtime/logs/.gitkeep
+!runtime/queue/.gitkeep
+!runtime/tmp/.gitkeep
+!data/cache/**/.gitkeep
+!data/exports/.gitkeep
+!data/imports/.gitkeep
+!data/memory/**/_bucket.json
+!data/memory/**/README.md
+
+# Secrets
+.env
+*.token
+config/secrets/*
+!config/secrets.example/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+build/

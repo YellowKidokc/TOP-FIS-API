@@ -1,0 +1,37 @@
+---
+fis_schema: tag-ledger.v1
+run_id: 1
+folder: "filetagger"
+generated_at: "2026-06-23T17:14:16"
+ledger: "D:\\DONT TOUCH BOOT UP\\FIS\\fis_runtime\\tag_ledger.sqlite"
+tags: ["folder", "filetagger", "code", "data", "script", "has-subfolders"]
+file_count: 16
+child_folder_count: 1
+---
+
+# FIS Folder Index: filetagger
+
+This folder has been seen by the FIS tag ledger. The ledger records names, tags, skipped items, and move status.
+
+Move state: every listed file starts as `not_moved` until a later approved mover records otherwise.
+
+## Direct Files
+
+- `catalog.db` :: #file #data #database #ext-db #catalog :: move_status=not_moved
+- `chi_catalog.db` :: #file #data #database #ext-db #chi #catalog :: move_status=not_moved
+- `chi_catalog_v2.db` :: #file #data #database #ext-db #chi #catalog :: move_status=not_moved
+- `conversion_scan.db` :: #file #data #database #ext-db #conversion #scan :: move_status=not_moved
+- `corpus_audit.html` :: #file #code #web #ext-html #corpus #audit :: move_status=not_moved
+- `filetagger.py` :: #file #code #python #ext-py #filetagger :: move_status=not_moved
+- `filetagger_chi.py` :: #file #code #python #ext-py #filetagger #chi :: move_status=not_moved
+- `filetagger_chi_v2.py` :: #file #code #python #ext-py #filetagger #chi :: move_status=not_moved
+- `filetagger_gui.py` :: #file #code #python #ext-py #filetagger #gui :: move_status=not_moved
+- `foldertagger.py` :: #file #code #python #ext-py #foldertagger :: move_status=not_moved
+- `gen_audit.py` :: #file #code #python #ext-py #gen #audit :: move_status=not_moved
+- `show_chi.py` :: #file #code #python #ext-py #show #chi :: move_status=not_moved
+- `START_FILETAGGER_GUI.bat` :: #file #script #windows #ext-bat #start #filetagger #gui :: move_status=not_moved
+- `START_FOLDER_TAGGER_SAMPLE.bat` :: #file #script #windows #ext-bat #start #folder #tagger #sample :: move_status=not_moved
+- `test_chi.db` :: #file #data #database #ext-db #test #chi :: move_status=not_moved
+- `test_chi2.db` :: #file #data #database #ext-db #test #chi2 :: move_status=not_moved
+
+<!-- FIS tag-ledger.v1: parseable note; safe to regenerate. -->

@@ -49,6 +49,7 @@ For the full install-to-daily-use story, read:
 - `docs/architecture/28pof-workbook-integration.md`
 - `docs/architecture/pof-hub-integration-plan.md`
 - `docs/architecture/scanner-pipeline.md`
+- `docs/architecture/label-enforcement.md`
 - `docs/architecture/legacy-fis-semantic-addressing.md`
 - `docs/schemas/api-contract-v0.md`
 - `docs/handoffs/forgotten-systems-inventory.md`
